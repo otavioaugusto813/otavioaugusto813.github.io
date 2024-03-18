@@ -1,11 +1,110 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Title of the document</title>
-</head>
 
-<body>
-Site do Otávio
-</body>
+<html lang="en">
 
-</html>
+	<head>
+		<meta charset= "UTF-8">
+		<title>Papyrus</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+
+	<body>
+	
+	<!--Criando uma div, um container, para agrupar as informações da página. -->
+	
+	<header>
+		<h1>Papyrus Store</h1>
+		<nav>
+			<!--Criando uma ul (unordered list). 'ol' para numerada-->
+			<ul>
+			      
+				<li><a href="index.html">Home</a></li>
+				<li><a href="">Shop</a></li>
+				<li><a href="contact.html">Entre em contato</a></li>
+			</ul>
+		</nav>
+		<input type="search" placeholder="search...">
+	</header>
+	<aside>
+		<h2>Comprar por:</h2>
+
+		<section>
+		<h3>Categoria</h3>
+		<hr>
+		<ul>
+			<li>Todos os itens</li>
+			<li>Grécia Antiga</li>
+			<li>Egito Antigo</li>
+			<li>Suméria</li>
+			<li>Roma Antiga</li>
+			<li>Outros</li>
+		</ul>
+		</section>
+
+		<section>
+		<h3>Preço <span>($)</span></h3>
+		<hr>
+		<ul>
+			<li>De R$ 0 a R$ 9.99</li>
+			<li>De R$ 10 a R$ 29.99</li>
+			<li>De R$ 30 a R$ 49.99</li>
+			<li>De R$ 50 a R$ 100</li>
+		</ul>
+		</section>
+	</aside>
+
+	<!-- Seção principal para mostrar os produtos --> 
+	<main>
+		<h2><strong>Todos</strong> os itens:</h2>
+		<div  class="product"> 
+			<a href = "product-detail.html">
+			<img src = "images/Herodoto.jpg" alt="Capa do livro Histórias do Heródoto" height="236.5" width="200"> 
+			</a>
+			<h4>Heródoto - Histórias</h4>
+			<p>R$ 120.00</p>
+			<p>O <em>pai da história</em> é o pai da mentira?</p>
+			<a href="product-detail.html" class="button">More info</a>
+			<a href="" class="button" id="position" >Add to cart</a>
+		</div>
+		
+		<div class="product">
+			<a href= product-detail.html"><img src="images/Gilgamesh.jpg" alt="Capa do livro Epopeia de Gilgamesh" height="236.5" width="200"></a>
+			<h4>Sin-leq-unninni </h4>
+			<p>R$ 47.17</p>
+			<p>O primeiro poema épico da história da humanidade?</p>
+			<a href="product-detail.html" class="button">More info</a>
+			<a href="" class="button">Add to cart<a>
+
+		</div>
+		<div class="product">
+			<a href= product-detail.html"><img src="images/Odisseia.jpg" alt="Capa do livro Odisseia de Homero" height="236.5" width="200"></a>
+			<h4>Odisseia</h4>
+			<p>R$ 101.02</p>
+			<p>A grande aventura de retorno para casa de Odisseu!</p>
+			<a href="product-detail.html" class="button">More info</a>
+			<a href="" class="button">Add to cart<a>
+
+		</div>
+		
+		<div class="product">
+			<a href= product-detail.html"><img src="images/Iliada.jpg" alt="Capa do livro Iliada de Homero" height="236.5" width="200"></a>
+			<h4>Iliada</h4>
+			<p>R$ 94.07</p>
+			<p>A grande guerra dos gregos contra os troianos pelo resgate de Helena.</p>
+			<a href="product-detail.html" class="button">More info</a>
+			<a href="" class="button">Add to cart<a>
+
+		</div>
+
+	</main>
+	<footer>
+		<nav>
+			<ul>
+				<li>home</li>
+				<li>shop</li>
+				<li>contact us</li>
+			</ul>
+		</nav> 	
+	</footer>
+	</body>	
+</html> 

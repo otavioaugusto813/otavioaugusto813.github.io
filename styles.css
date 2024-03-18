@@ -1,0 +1,151 @@
+html {
+	background: #f7f7f7; 
+}
+
+body {
+	font-family: "Garamond";
+	font-style: normal;
+	font-weight: 400;
+	background:#f7f7f7;
+	max-width: 1000px;
+	margin: 0 auto;
+	color: #392214;
+}
+
+header, footer {
+	background: #8d3b30;
+	color: white;
+	padding: 10px 10px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	line-height: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color:#dfcbc9;
+}
+
+header li, footer li {
+	display: inline;
+}
+
+header h1 {
+	witdh: 70px;
+}
+
+header h1, nav {
+	display: inline-block;
+}
+
+header h1 {
+	width: 62%;
+}
+
+
+main {
+	width: 680px;
+	display: inline-block;
+	padding: 10px;
+}
+
+aside {
+	width: 270px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+}
+img {
+	max-width: 100%;
+	vertical-align: middle;
+	
+}
+
+.button {
+	padding: 10px;
+	display: inline-block;
+}
+.button:last-of-type {
+	background:#bf9779;
+	color: white
+}
+
+
+
+/*Colorindo apenas o terceiro elemento de uma lista*/
+
+/*li:nth-of-type(3) {
+	color: red;
+} 
+*/
+	
+
+.product {
+	box-sizing: border-box;
+	border: 1px solid grey; 
+	width: 200px;
+	margin: 5px;
+	padding: 5px;
+	display: inline-block;
+}
+
+.product-detail{
+	width:660px;
+}
+
+.product-detail img {
+	max-width: 30%;
+	float: left;
+	
+}
+/*
+#position {
+	position:absolute; 
+	left:10px;
+	top: 10px;
+}
+*/
+
+img {
+	max-width: 100%
+}
+
+
+
+p:first-of-type {
+	color: #252D28;
+}
+
+/* Contact us */
+
+form {
+	padding: 10px;
+	margin: 10px 0;
+	width: 600px;
+}
+
+form > div {
+
+	margin: 10px;
+}
+
+.inline label{
+	display: inline-block;
+	width: 100px;
+}
+
+input[type="text"], input[type="email"], textarea {
+	padding:10px;
+	width: 400px;
+}
