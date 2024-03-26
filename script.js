@@ -16,21 +16,15 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + " " + hours + " "
+  // Output the result in an element with id="hora"
+  document.getElementById("hora").innerHTML = days + " " + hours + " "
   + minutes + " " + seconds + " ";
     
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").style.paddingTop = "100px";
-    document.getElementById("demo").style.color = "#bc3b1a"
-    document.getElementById("demo").innerHTML = "O evento começou!";
+    document.getElementById("hora").innerHTML = "O evento começou!";
     document.getElementById("label-inicio-evento").remove()
     document.getElementById("label-dias").remove()
   }
 }, 1000);
-
-
-// let name = prompt("Hello! What's your name?");
-// TODO -> alert("Inscrição realizada com sucesso!, " + name + "!");
