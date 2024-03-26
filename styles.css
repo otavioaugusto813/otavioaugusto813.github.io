@@ -39,7 +39,10 @@ html, body{
 
 .navbar-toggler-icon {
 	/* background-color: #2b1231; */
-	color: white;
+	/* color: white; */
+	height: 25px;
+	shape-margin: #2b1231;
+
 }
 
 .navbar-dark {
@@ -199,6 +202,16 @@ footer p {
 	font-size: 15px;
 }
 
+#hora {
+	color: #bc3b1a;
+	padding-top: 50px;
+}
+
+#label-inicio-evento {
+	padding-top: 50px;
+}
+
+
 /* teste navbar */
 
 
@@ -208,15 +221,15 @@ footer p {
   } */
   
   
-  @media (max-width: 768px) {
+  @media (max-width: 578px) {
 	p {
 		font-size: 18px;
 		padding-left: 0px;
 	}
 
 	footer img {
-		max-height: 70%;
-		max-width: 70%;
+		max-height: 50%;
+		max-width: 50%;
 		/* padding: 1px; */
 		margin-left: 2px;
 		margin-right: 0px;
@@ -248,6 +261,7 @@ footer p {
 	.logo-realizacao {
 		width: 80%;
 		height: 80%;
+		padding-left: 50px;
 	}
 
 	.esquerda {
