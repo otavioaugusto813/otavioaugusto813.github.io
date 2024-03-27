@@ -108,11 +108,7 @@ td {
 	
 }
 
-.org {
-	background-color:#ba3a21;
-	color: white;
-	height: 400px;
-}
+
 
 .estetica-flecha {
 	max-width: 100%;
@@ -224,6 +220,11 @@ footer p {
 
 @media (min-width: 567px) {
 
+	.org {
+		background-color:#ba3a21;
+		color: white;
+		height: 400px;
+	}
 	
 	#label-inicio-evento {
 		padding-top: 50px;
@@ -270,37 +271,42 @@ footer p {
 	.menu-custom {
 		padding-block: 10px;
 	}
-p {
-	font-size: 18px;
-	padding-left: 0px;
-	padding-right: 5px;
-}
+	p {
+		font-size: 18px;
+		padding-left: 0px;
+		padding-right: 5px;
+	}
 
+	.org {
+		background-color:#ba3a21;
+		color: white;
+		height: 200px;
+	}
 
-footer p {
-	font-size: 18px;
-}
+	footer p {
+		font-size: 18px;
+	}
 
-#label-inicio-evento {
-	padding-top: 0px;
-}
+	#label-inicio-evento {
+		padding-top: 0px;
+	}
 
-#instagram{
-	max-height: 30px;
-	
-}
+	#instagram{
+		max-height: 30px;
+		
+	}
 
-.logo-realizacao {
-	width: 600px;
-	height: 200;
-}
+	.logo-realizacao {
+		width: 600px;
+		height: 200;
+	}
 
-.logo{
-	max-width: 130px;
-	max-height: 300px;
-	padding-inline: 10px;
-	/* padding: 2px; */
-	align-items: center;
+	.logo{
+		max-width: 130px;
+		max-height: 300px;
+		padding-inline: 10px;
+		/* padding: 2px; */
+		align-items: center;
 }
 
 
