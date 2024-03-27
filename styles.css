@@ -203,16 +203,25 @@ footer p {
 /* Desktop */
 
 @media (min-width: 567px) {
+
+
 	.abertura{
-		padding-left: 200px;
+		padding-left: 80px;
 		margin-top: 20px;
 	} 
+		/* imagens */
 	.logo-realizacao {
-		max-width: 350px;
-		max-height: 300px;
-		padding-left: 30px;
-		padding-top: 10px;
-		margin-left: 10px;
+		max-width: auto;
+		max-height: 80px;
+		/* padding-left: 30px; */
+		/* padding-top: 10px; */
+		/* margin-left: 10px;
+		padding-right: 10px; */
+	}
+	#instagram{
+		max-height: 40px;
+		/* padding-left: 60px; */
+		margin-top: 30px;
 	}
 
 	.label-footer {
@@ -224,11 +233,7 @@ footer p {
 		padding-top: 100px;
 	}
 
-	#instagram{
-		max-height: 60px;
-		padding-left: 150px;
-		padding-top: 15px;
-	}
+	
 }
   
 
@@ -237,6 +242,7 @@ footer p {
 p {
 	font-size: 18px;
 	padding-left: 0px;
+	padding-right: 5px;
 }
 
 
@@ -249,24 +255,22 @@ footer p {
 }
 
 #instagram{
-	max-height: 40px;
-	padding-left: 150px;
-	padding-bottom: 10px;
+	max-height: 30px;
+	
 }
 
 .logo-realizacao {
 	width: 600px;
 	height: 200;
-	padding-left: 80px;
-	margin-bottom: 5px;
 }
 
 .logo{
-	max-width: 150px;
+	max-width: 130px;
 	max-height: 300px;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	padding: 2px;
+	/* padding: 2px; */
+	align-items: center;
 }
 
 
