@@ -22,9 +22,9 @@ var x = setInterval(function() {
     
   // If the count down is over, write some text 
   if (distance < 0) {
-    clearInterval(x);
+    // clearInterval(x);
     document.getElementById("hora").innerHTML = "O evento começou!";
     document.getElementById("label-inicio-evento").remove()
     document.getElementById("label-dias").remove()
   }
-}, 1000);
+}, 1);
