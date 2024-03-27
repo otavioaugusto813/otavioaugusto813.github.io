@@ -211,7 +211,7 @@ footer p {
 		max-width: 350px;
 		max-height: 300px;
 		padding-left: 30px;
-		padding-top: 30px;
+		padding-top: 10px;
 		margin-left: 10px;
 	}
 
@@ -222,6 +222,12 @@ footer p {
 
 	#label-inicio-evento {
 		padding-top: 100px;
+	}
+
+	#instagram{
+		max-height: 60px;
+		padding-left: 150px;
+		padding-top: 15px;
 	}
 }
   
@@ -234,13 +240,25 @@ p {
 }
 
 
-
 footer p {
 	font-size: 18px;
 }
 
 #label-inicio-evento {
 	padding-top: 0px;
+}
+
+#instagram{
+	max-height: 40px;
+	padding-left: 150px;
+	padding-bottom: 10px;
+}
+
+.logo-realizacao {
+	width: 600px;
+	height: 200;
+	padding-left: 80px;
+	margin-bottom: 5px;
 }
 
 .logo{
@@ -251,11 +269,7 @@ footer p {
 	padding: 2px;
 }
 
-.logo-realizacao {
-	width: 600px;
-	height: 200;
-	padding-left: 80px;
-}
+
 
 .timer {
 	font-size: 40px;
