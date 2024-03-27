@@ -1,3 +1,5 @@
+/* Geral */
+
 html, body{
 	background: #ffffff; 
 	height: 100%;
@@ -9,11 +11,12 @@ html, body{
 
 .nav {
 	font-size: 20px;
+	
 }
 .navbar {
 	height:50px;
 	background-color: #2b1231;
-	/* text-align: center; */
+
 }
 .nav-link {
 	background-color: #2b1231;
@@ -127,6 +130,8 @@ h1 {
 }
 
 
+
+
 h2 {
 	background-color: #bc3b1a;
 	color: white;
@@ -149,13 +154,7 @@ h3 {
 
 
 
-.timer {
-	font-size: 50px;
-	/* padding-left: 30px; */
-	margin-top: 1px;
-	padding-top: 0px;
-	border-top: 0px;
-}
+
 
 .dias {
 	padding-left: 30px;
@@ -164,13 +163,23 @@ h3 {
 
 
 
-hr {
+.barra-final {
 	height: 15px;
 	background-color: #bc3b1a;
 	opacity: 100%;
 	border-color: #bc3b1a;
 }
 
+
+.timer {
+	font-size: 50px;
+	padding-block: 3px;
+	margin-block: 0px;
+	/* padding-left: 30px; */
+	/* margin-top: 1px;
+	padding-top: 0px;
+	border-top: 0px; */
+}
 
 
 footer img {
@@ -191,19 +200,34 @@ footer p {
 
 #hora {
 	color: #bc3b1a;
-	padding-top: 30px;
+	padding-block: 20px;
 }
 
-#label-inicio-evento {
-	padding-top: 50px;
+.linha-hora{
+	height: 8px !important;
+	background-color: #bc3b1a;
+	opacity: 100%;
+	border-color: #bc3b1a;
+}
+
+.linha-divisoria{
+	height: 5px;
+	background-color: #bc3b1a;
+	opacity: 100%;
+	border-color: #bc3b1a;
 }
 
 
 
-/* Desktop */
+
+/* Desktop e tablet*/
 
 @media (min-width: 567px) {
 
+	
+	#label-inicio-evento {
+		padding-top: 50px;
+	}
 
 	.abertura{
 		padding-left: 80px;
@@ -229,9 +253,9 @@ footer p {
 		font-size: 18px;
 	}
 
-	#label-inicio-evento {
+	/* #label-inicio-evento {
 		padding-top: 100px;
-	}
+	} */
 
 	
 }
@@ -239,6 +263,10 @@ footer p {
 
 /* Mobile */
 @media (max-width: 576px) {
+
+	/* #label-inicio-evento {
+		padding-top: 50px;
+	} */
 p {
 	font-size: 18px;
 	padding-left: 0px;
@@ -267,8 +295,7 @@ footer p {
 .logo{
 	max-width: 130px;
 	max-height: 300px;
-	padding-top: 0px;
-	padding-bottom: 0px;
+	padding-inline: 10px;
 	/* padding: 2px; */
 	align-items: center;
 }
@@ -276,11 +303,12 @@ footer p {
 
 
 .timer {
-	font-size: 40px;
+	font-size: 30px;
+	padding-block: 3px;
 	/* padding-left: 30px; */
-	margin-top: 1px;
+	/* margin-top: 1px;
 	padding-top: 0px;
-	border-top: 0px;
+	border-top: 0px; */
 }
 }
 
