@@ -139,7 +139,7 @@ h2 {
 
 h3 {
 	font-size: 20px;
-	/* padding-left: 30px; */
+
 }
 
 .mesa {
@@ -151,7 +151,7 @@ h3 {
 
 .timer {
 	font-size: 50px;
-	padding-left: 30px;
+	/* padding-left: 30px; */
 	margin-top: 1px;
 	padding-top: 0px;
 	border-top: 0px;
@@ -277,7 +277,7 @@ footer p {
 
 .timer {
 	font-size: 40px;
-	padding-left: 30px;
+	/* padding-left: 30px; */
 	margin-top: 1px;
 	padding-top: 0px;
 	border-top: 0px;
