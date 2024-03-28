@@ -226,7 +226,7 @@ footer p {
 	}
 	
 	#label-inicio-evento {
-		padding-top: 50px;
+		padding-top: 60px;
 	}
 
 	.abertura{
@@ -263,6 +263,27 @@ footer p {
 
 /* Mobile */
 @media (max-width: 576px) {
+
+	h1 {
+		font-size: 1.5em;
+	
+	}
+
+	h2 {
+		font-size: 1.2em;
+	}
+
+	h3 {
+		font-size: 1em;
+	}
+
+	p, td {
+		font-size: 0.8em;
+	}	
+
+	li {
+		font-size: 0.8em;
+	}
 	.abertura {
 		padding-top: 15px;
 	}
@@ -270,11 +291,7 @@ footer p {
 	.menu-custom {
 		padding-block: 10px;
 	}
-	p {
-		font-size: 18px;
-		padding-left: 0px;
-		padding-right: 5px;
-	}
+	
 
 	.org {
 		background-color:#ba3a21;
@@ -296,7 +313,7 @@ footer p {
 	}
 
 	.logo-realizacao {
-		width: 600px;
+		max-width: 400px;
 		height: 200;
 	}
 
